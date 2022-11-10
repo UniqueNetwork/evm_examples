@@ -1,0 +1,23 @@
+{
+  "name": "Animals on skateboard 3",
+  "description": "Nice puppy on penny 3",
+  "image": "ipfs://QmbXTg5E5Sh1B4bac4LaSsbq8qrHqyRB8kx1jEM8Wh1wNv",
+  "attributes": [
+    {
+      "trait_type": "Skateboard",
+      "value": "Penny"
+    },
+    {
+      "trait_type": "Animal",
+      "value": "Dog"
+    },
+    {
+      "trait_type": "Costume",
+      "value": "Blue necktie"
+    },
+    {
+      "trait_type": "Special",
+      "value": "Fluffy boy"
+    }
+  ]
+}
