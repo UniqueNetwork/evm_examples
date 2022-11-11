@@ -2,7 +2,7 @@
 
 ### Pre-requires
 1. Metamask
-2. [Alchemy api key](https://www.alchemy.com/). Once you’ve created an Alchemy account, you can generate an API key by creating an app. This will allow us to make requests to the Goerli test network.
+2. [Alchemy api key](https://www.alchemy.com/). Need for goerli
 
 ### Env example
 ```
@@ -36,3 +36,7 @@ CONTRACT_ADDRESS="CONTRACT_ADDRESS"
 [Alchemy](https://www.alchemy.com/)
 
 [Goerli faucet](https://goerlifaucet.com/)
+
+[Opal faucet](https://t.me/unique2faucet_opal_bot)
+
+[How to export an account's private key from metamask](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key#:~:text=On%20the%20account%20page%2C%20click,click%20%E2%80%9CConfirm%E2%80%9D%20to%20proceed.)
