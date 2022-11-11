@@ -12,17 +12,23 @@ PUBLIC_KEY="YOR_PUBLIC_ADDRESS"
 CONTRACT_ADDRESS="CONTRACT_ADDRESS"
 ```
 
-
 ### Steps
 
 1. npm i
-2. `cd goerly_example`
-3. Create .env file
-4. Compile contract `npx hardhat compile`
-5. Deploy example contract ` npx hardhat --network goerli run scripts/deploy.js`
-6. Add contract address to .env `CONTRACT_ADDRESS=YOR_CONTRACT_ADDRESS`
-7. Run contract mintToken script `node scripts/mint-nft.js`
+2. Create .env file
+3. Compile contract `npx hardhat compile`
 
+### Steps for goerli
+
+1. Deploy example contract ` npx hardhat --network goerli run scripts/deploy.js`
+2. Add contract address to .env `CONTRACT_ADDRESS=YOR_CONTRACT_ADDRESS`
+3. Run contract mintToken script `node scripts/mint-nft.js`
+
+### Steps for opal
+
+1. Deploy example contract ` npx hardhat --network opal run scripts/deploy.js`
+2. Add contract address to .env `CONTRACT_ADDRESS=YOR_CONTRACT_ADDRESS`
+3. Run contract mintToken script `node scripts/mint-nft-opal.js`
 
 ### Links
 [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#overview)

@@ -14,6 +14,10 @@ module.exports = {
     goerli: {
       url: ALCHEMY_API_URL,
       accounts: [`0x${PRIVATE_KEY}`]
+    },
+    opal: {
+      url: 'https://rpc-opal.unique.network',
+      accounts: [`0x${PRIVATE_KEY}`]
     }
-  },
+  }
 }
