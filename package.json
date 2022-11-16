@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.7",
+    "@unique-nft/solidity-interfaces": "^0.0.1",
     "dotenv": "^16.0.3"
   }
 }

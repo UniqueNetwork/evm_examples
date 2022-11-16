@@ -18,6 +18,10 @@ module.exports = {
     opal: {
       url: 'https://rpc-opal.unique.network',
       accounts: [`0x${PRIVATE_KEY}`]
+    },
+    rc: {
+      url: 'https://rpc-rc.unique.network',
+      accounts: [`0x${PRIVATE_KEY}`]
     }
   }
 }

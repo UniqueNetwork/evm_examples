@@ -1,7 +1,7 @@
 ## Deploy contract and mint Nft with hardhat and alchemy on Goerli Testnet
 
 ### Pre-requires
-1. Metamask
+1. Metamask private key
 2. [Alchemy api key](https://www.alchemy.com/). Need for goerli
 
 ### Env example
@@ -16,19 +16,19 @@ CONTRACT_ADDRESS="CONTRACT_ADDRESS"
 
 1. npm i
 2. Create .env file
-3. Compile contract `npx hardhat compile`
+3. Compile contracts `npx hardhat compile`
 
 ### Steps for goerli
 
-1. Deploy example contract ` npx hardhat --network goerli run scripts/deploy.js`
+1. Deploy example contract `npx hardhat --network goerli run scripts/deploy.js`
 2. Add contract address to .env `CONTRACT_ADDRESS=YOR_CONTRACT_ADDRESS`
 3. Run contract mintToken script `node scripts/mint-nft.js`
 
-### Steps for opal
+### Steps for rc
 
-1. Deploy example contract ` npx hardhat --network opal run scripts/deploy.js`
+1. Deploy example contract `npx hardhat --network rc run scripts/rc-deploy-contract.js`
 2. Add contract address to .env `CONTRACT_ADDRESS=YOR_CONTRACT_ADDRESS`
-3. Run contract mintToken script `node scripts/mint-nft-opal.js`
+3. Mint collection and token script `node scripts/rc-mint-collection-and-token.js`
 
 ### Links
 [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#overview)
