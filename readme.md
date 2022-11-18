@@ -24,9 +24,9 @@ CONTRACT_ADDRESS="CONTRACT_ADDRESS"
 2. Add contract address to .env `CONTRACT_ADDRESS=YOR_CONTRACT_ADDRESS`
 3. Run contract mintToken script `node scripts/mint-nft.js`
 
-### Steps for rc
+### Steps for rc/opal
 
-1. Deploy example contract `npx hardhat --network rc run scripts/rc-deploy-contract.js`
+1. Deploy contract for rc `npx hardhat --network rc run scripts/rc-deploy-contract.js`. Deploy contract for opal`npx hardhat --network opal run scripts/rc-deploy-contract.js`
 2. Add contract address to .env `CONTRACT_ADDRESS=YOR_CONTRACT_ADDRESS`
 3. Mint collection and token script `node scripts/rc-mint-collection-and-token.js`
 

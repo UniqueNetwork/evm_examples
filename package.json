@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mint-opal": "PROVIDER=OPAL CONTRACT_ADDRESS=0x588E94ceCF0C228d1151fac8096a4319DE07bf94 node scripts/rc-mint-collection-and-token.js",
+    "mint-rc": "PROVIDER=RC CONTRACT_ADDRESS=0x5A265D9B0e0B68456e9D76C14AC5be1E9367F2ea node scripts/rc-mint-collection-and-token.js"
   },
   "keywords": [],
   "author": "",
